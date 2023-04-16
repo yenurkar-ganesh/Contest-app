@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: "poppin", "sans-serif";
+ 
+}
+body {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* background-color: #ccd6f6; */
+}
+.header {
+  background-color: #0a192f;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-top p {
+  font-size: 1.8rem;
+  padding-top: .5rem;
+}
+.info-top {
+  background-image: url(asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* padding: 350px; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container-info {
+  width: 1200px;
+  height: 480x;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid lightgrey;
+  border-radius: 1.5rem;
+  margin: 5px;
+  padding: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 65%
+  );
+  width: 100%;
+  color: aliceblue;
+}
+.container-info h1 {
+  font-family: "Cookie", cursive;
+  font-size: 4.4rem;
+}
+.container-info img {
+  display: flex;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 2px 2px 0px rgba(226, 226, 226, 0.4);
+}
+
+.container-info p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.event-head {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.card {
+  transition: all 0.1s ease-in-out;
+  border: 5px solid lightgray;
+  border-radius: 16px;
+  /* width: 820px;
+    height: 400px; */
+  margin: 15px;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.card:hover {
+  transform: rotate(4deg);
+  color: beige;
+  border-radius: 22px;
+  box-shadow: 4px 6px 12px 12px #eee;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    173deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 65%
+  );
+  width: 100%;
+  border: none;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #020200;
+  justify-content: center;
+  width: 100%;
+}
+.nav-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+.nav-item a:hover {
+  transition: 400ms;
+  color: #64ffda;
+}
+.nav-item:hover {
+  color: #64ffda;
+}
+.nav-item a i:hover {
+  transform: scale(1.6);
+}
+.btn1 {
+  background: #0a192f;
+  font-size: 0.7rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  color: #ccd6f6;
+  border: 2px solid #64ffda;
+  transition: all 0.1s ease-in-out;
+}
+.btn1:hover {
+  background: #64ffda;
+  color: solid black;
+  transform: scale(1.2);
+}
+.event-card {
+  justify-content: center;
+  width: 100%;
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(https://coolbackgrounds.io/images/backgrounds/index/gulf-dec0ccde.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1.8rem;
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  /* content: "Coding, Programming, Competition, Participation, Hassle"; */
+}
+/* :root:after {
+  display: flex;
+  flex-wrap: wrap;
+  content: "Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle Coding, Programming, Competition, Participation, Hassle ";
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: lightgrey;
+  z-index: -1;
+  top: 0%;
+  width: 100%;
+  position: fixed;
+  transform: rotate(300deg);
+} */
